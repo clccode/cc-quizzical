@@ -1,8 +1,9 @@
-# React + Vite
+# Quizzical, a quiz game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the "Quizzical" project from the Scrimba (https://scrimba.com) Front End Development Career Path course.  The project uses React to create a quiz game.
 
-Currently, two official plugins are available:
+* The questions come from the Open Trivia DB (https://opentdb.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A live demo is available here: https://cc-quizzical.netlify.app/
+
+Enjoy!
