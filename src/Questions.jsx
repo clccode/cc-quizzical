@@ -73,6 +73,7 @@ export default function Questions(props) {
     
     return (
         <div className="questions-container">
+            <img src={smallGoldBlob} className="small-gold-blob" />
             {questions.map((question) => (
                 <div key={question.id}>
                     <h2>{he.decode(question.question || "")}</h2> {/* Safely decode question */}

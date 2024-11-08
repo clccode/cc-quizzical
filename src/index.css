@@ -35,11 +35,12 @@ button {
   right: 0;
 }
 
-/* Answers */
+/* Questions/Answers */
 
 .questions-container {
   margin: 0 auto;
   width: 80%; /* adjust this value to your desired width */
+  height: 100vh;
 }
 
 form {
@@ -88,4 +89,10 @@ form {
 
 .score {
   margin-right: 2em;
+}
+
+.small-gold-blob {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
