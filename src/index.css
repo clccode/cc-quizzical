@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #F5F7FB;
+  color: #293264;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  width: 12em;
+  height: 3.25em;
+  border: none;
+  border-radius: 10px;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+}
+
+/* Intro component */
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* add this to center vertically */
+}
+
+.intro-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Answers */
+
+.questions-container {
+  margin: 0 auto;
+  width: 80%; /* adjust this value to your desired width */
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.answers-list {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+}
+
+.answer-item > button {
+  width: 8em;
+  height: 3em;
+  font-family: 'Inter', sans-serif;
+  font-size: .8rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px 20px; /* adjust padding to your liking */
+  width: fit-content;
+  background: transparent;
+  border: 1px solid #4D5B9E;
+  border-radius: 10px;
+  color: #293264;
+  cursor: pointer;
+}
+
+.check-btn {
+  display: block;
+  margin: 2em auto;  
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+}
+
+.score {
+  margin-right: 2em;
+}
